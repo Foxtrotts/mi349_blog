@@ -15,6 +15,28 @@ h1{
     margin: 0;
 }
 
+.navigation{
+    background: #ff5353;
+    display: flex;
+    padding: 0px;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    position: sticky;
+    top: 0px;
+}
+
+.navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: #ececec;
+}
+
+.navigation a:hover {
+    background: #ffa7a7;
+}
+
 header > p{
     margin: 0;
 }
@@ -29,4 +51,26 @@ p {
 
 .blog-post {
     border-bottom: 1px dotted #ccc;
+    flex: 1;
+    margin-bottom: 100px;
 }
+
+h2{
+    margin-bottom: 0px;
+}
+
+img{
+    float: left;
+}
+
+#thanksgiving-picture {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 50px;
+}
+
+#onion-picture{
+    float: left;
+    margin-left: 10px;
+}
+
