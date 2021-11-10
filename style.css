@@ -10,9 +10,11 @@ body {
     background: #fff;
 }
 
+
+
 h1{
     font-size: 3em;
-    margin: 0;
+    margin: 0px;
 }
 
 .navigation{
@@ -37,40 +39,32 @@ h1{
     background: #ffa7a7;
 }
 
-header > p{
-    margin: 0;
 }
 
 p {
     line-height: 1.4em;
 }
 
-#blog {
-    border-top: 1px dotted #ccc;
-}
-
 .blog-post {
     border-bottom: 1px dotted #ccc;
     flex: 1;
     margin-bottom: 100px;
+    text-align: center;
+    clear: both;
 }
 
 h2{
     margin-bottom: 0px;
 }
 
-img{
+
+.blog-picture {
     float: left;
+    width: 200px;
+    padding: 5px;
+    
 }
 
-#thanksgiving-picture {
-    float: left;
-    margin-left: 10px;
-    margin-bottom: 50px;
+#Daniel-suit {
+    width: 200px;
 }
-
-#onion-picture{
-    float: left;
-    margin-left: 10px;
-}
-
